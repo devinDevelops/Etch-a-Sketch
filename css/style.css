@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+/* add hover styles to buttons */
+
+
+.grid-container {
+  display: grid;
+  background-color: #EDEDED;
+  border: 8px solid #003049;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.child-div {
+  border: 0.25px solid lightgrey;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 16px;
+}
+
+.grid-buttons-container,
+.color-buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #009DD4;
+}
+
+h1 {
+  font-family: 'Kalam', arial, sans-serif;
+  font-size: 56px;
+  color: #EDC812;
+  margin: 12px auto;
+}
+
+button {
+  font-family: arial;
+  color: #EDEDED;
+  background-color: #003049;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  opacity: 0.8;
+}
